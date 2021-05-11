@@ -117,7 +117,7 @@ col1, col2 = st.beta_columns((1,1))
 with col1:
     html_temp = """
     <div style="background-color:white;padding:10px;margin-bottom: 25px">
-    <h5 style="color:black;text-align:center;">Stationarity Test - Dickey Fuller Test</h5>
+    <h5 style="color:black;text-align:center;">Stationarity Test - Augmented Dickey Fuller Test</h5>
     </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
